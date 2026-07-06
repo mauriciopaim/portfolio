@@ -321,18 +321,8 @@ h2 {
 .cmy .m { background: var(--magenta); }
 .cmy .y { background: var(--yellow); }
 
-.ledger-note {
-  max-width: 68rem;
-  margin: 2.4rem auto 0;
-  font-size: 0.95rem;
-  color: var(--text-soft);
-}
-.ledger-note .mono {
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-right: 0.6rem;
-}
+.edu-head { margin-top: 5rem; }
+.edu-head .eyebrow { margin-bottom: 1rem; }
 
 /* ——— how i work ——— */
 .principles {
