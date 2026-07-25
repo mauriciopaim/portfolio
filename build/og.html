@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og image source</title>
+<!--
+  Source for /og.png (the link preview card).
+  Regenerate by screenshotting this page at 600 x 315 with a
+  device pixel ratio of 2, which gives the 1200 x 630 Open Graph size.
+-->
+<style>
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/Archivo-normal-100-900.woff2') format('woff2');
+    font-weight: 100 900; font-stretch: 62% 125%;
+  }
+  @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('../fonts/IBMPlexMono-normal-400.woff2') format('woff2');
+    font-weight: 400;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 600px; height: 315px;
+    background: #131317;
+    color: #f2f1ec;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 42px 44px;
+  }
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(242,241,236,0.7);
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 16px;
+  }
+  .eyebrow::before {
+    content: ''; width: 11px; height: 11px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Ccircle cx='7' cy='7' r='5' fill='none' stroke='%23ec008c' stroke-width='1'/%3E%3Cpath d='M7 0v14M0 7h14' stroke='%2300aeef' stroke-width='1'/%3E%3C/svg%3E") center/contain no-repeat;
+  }
+  h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800; font-stretch: 112%;
+    text-transform: uppercase;
+    font-size: 68px; line-height: 0.9;
+    letter-spacing: -0.02em;
+    text-shadow: -1.5px 0 0 #00aeef, 1.5px 0 0 #ec008c;
+  }
+  p {
+    margin-top: 18px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: rgba(242,241,236,0.75);
+  }
+  svg { position: absolute; left: 0; bottom: 4px; width: 600px; height: 48px; }
+</style>
+</head>
+<body>
+  <p class="eyebrow">Senior UX Designer &nbsp;·&nbsp; Brussels</p>
+  <h1>Mauricio<br>Paim</h1>
+  <p>I make complex things line up.</p>
+  <svg viewBox="0 0 600 60" fill="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="f" x1="0" x2="600" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+        <stop offset="0.2" stop-color="#fff" stop-opacity="1"/>
+        <stop offset="0.8" stop-color="#fff" stop-opacity="1"/>
+        <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      </linearGradient>
+      <mask id="m"><rect width="600" height="60" fill="url(#f)"/></mask>
+    </defs>
+    <g mask="url(#m)" stroke-width="1.4" fill="none">
+      <path d="M0 22 C 120 10, 260 34, 430 30 C 520 28, 560 30, 600 30" stroke="#00aeef"/>
+      <path d="M0 38 C 120 46, 260 26, 430 30 C 520 32, 560 30, 600 30" stroke="#ec008c"/>
+      <path d="M0 31 C 120 25, 260 32, 430 30 C 520 29, 560 30, 600 30" stroke="#ffd200"/>
+    </g>
+  </svg>
+</body>
+</html>

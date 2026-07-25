@@ -1,16 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mauricio Paim · UX Designer</title>
   <meta name="description" content="Mauricio Paim is a senior UX designer in Brussels. Twenty years of making complex things line up, from print shops in Brazil to digital services used by millions.">
+  <link rel="canonical" href="https://mauriciopaim.com/">
+  <meta name="theme-color" content="#131317">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://mauriciopaim.com/">
   <meta property="og:title" content="Mauricio Paim · UX Designer">
   <meta property="og:description" content="Twenty years of making complex things line up.">
+  <meta property="og:image" content="https://mauriciopaim.com/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%23EC008C' stroke-width='2'/><path d='M16 3v26M3 16h26' stroke='%2300AEEF' stroke-width='2'/></svg>">
-  <link rel="stylesheet" href="css/style.css?v=2">
+
+  <link rel="preload" href="fonts/Archivo-normal-100-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Newsreader-normal-200-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css?v=3">
+
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mauricio Paim",
+    "url": "https://mauriciopaim.com/",
+    "email": "mailto:mauricionpaim@gmail.com",
+    "jobTitle": "Senior UX Designer",
+    "worksFor": { "@type": "Organization", "name": "bpost" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Brussels", "addressCountry": "BE" },
+    "knowsLanguage": ["pt", "en", "fr", "es"],
+    "sameAs": [
+      "https://www.linkedin.com/in/mauriciopaim",
+      "https://github.com/mauriciopaim"
+    ]
+  }
+  </script>
 </head>
 <body>
+
+  <a class="skip" href="#story">Skip to content</a>
 
   <nav class="nav" aria-label="Main">
     <a class="nav-brand" href="#top">M·P</a>
@@ -34,7 +67,7 @@
       plates in a Brazilian print shop. The tools changed. The job didn&rsquo;t:
       <em>I make complex things line&nbsp;up.</em></p>
     </div>
-    <a class="scroll-cue" href="#story" aria-label="Scroll to story">
+    <a class="scroll-cue" href="#story">
       <span class="mono">scroll</span>
       <span class="cue-line" aria-hidden="true"></span>
     </a>
@@ -42,53 +75,57 @@
 
   <main>
     <!-- ══════════ THE PAGE ══════════ -->
-    <section class="paper story" id="story">
-      <div class="col">
-        <p class="eyebrow reg-mark">Story</p>
-        <h2 class="reveal">From ink on paper<br>to services at scale</h2>
+    <section class="paper story" id="story" aria-labelledby="story-h">
+      <div class="sheet">
+        <p class="eyebrow reg-mark rail">Story</p>
 
-        <div class="prose">
-          <p class="reveal">I learned design where mistakes are printed ten thousand times:
-          a print shop in Brazil, setting business cards, books and magazines, and learning
-          color theory the hard way, watching plates come into register.</p>
+        <div class="lead">
+          <h2 id="story-h" class="reveal register">From ink on paper<br>to services at scale</h2>
 
-          <p class="reveal">University in England pulled me into the web. Back in Brazil I
-          joined a just-founded web performance startup as designer and maker, one of
-          its core trio, from university incubation to acceleration in São Paulo. Then
-          three years redesigning a travel SaaS: research, information architecture,
-          testing, the whole loop.</p>
+          <div class="prose">
+            <p class="reveal">I learned design where mistakes are printed ten thousand times:
+            a print shop in Brazil, setting business cards, books and magazines, and learning
+            color theory the hard way, watching plates come into register.</p>
 
-          <p class="reveal">Since 2018 I&rsquo;ve been in Brussels, designing for telecom,
-          logistics, finance and events, and today the national postal service, where the
-          things I draw are used by millions of people. My work runs the full arc: interviews
-          and service blueprints at one end, design systems and front&#8209;end&#8209;ready
-          specs at the other.</p>
+            <p class="reveal">University in England pulled me into the web. Back in Brazil I
+            joined a just-founded web performance startup as designer and maker, one of
+            its core trio, from university incubation to acceleration in São Paulo. Then
+            three years redesigning a travel SaaS: research, information architecture,
+            testing, the whole loop.</p>
 
-          <p class="reveal">Lately the two ends are joining up. I increasingly build what I
-          design: prototyping in code, working with AI tooling, writing design rules instead
-          of pushing pixels. It feels a lot like the print shop again. Define the system well,
-          and every copy comes out right.</p>
+            <p class="reveal">Since 2018 I&rsquo;ve been in Brussels, designing for telecom,
+            logistics, finance and events, and today the national postal service, where the
+            things I draw are used by millions of people. My work runs the full arc: interviews
+            and service blueprints at one end, design systems and front&#8209;end&#8209;ready
+            specs at the other.</p>
+
+            <p class="reveal">Lately the two ends are joining up. I increasingly build what I
+            design: prototyping in code, working with AI tooling, writing design rules instead
+            of pushing pixels. It feels a lot like the print shop again. Define the system well,
+            and every copy comes out right.</p>
+          </div>
         </div>
-      </div>
 
-      <ul class="facts mono" aria-label="Quick facts">
-        <li class="reveal"><span class="fact-k">Oi. Hello. Ciao. Hola.</span><span class="fact-v">4 languages</span></li>
-        <li class="reveal"><span class="fact-k">Print → Web → UX → Code</span><span class="fact-v">20 years of design</span></li>
-        <li class="reveal"><span class="fact-k">Brazil → UK → Belgium</span><span class="fact-v">3 countries</span></li>
-      </ul>
+        <ul class="facts mono" aria-label="Quick facts">
+          <li class="reveal"><span class="fact-v">4 languages</span><span class="fact-k">Oi. Hello. Ciao. Hola.</span></li>
+          <li class="reveal"><span class="fact-v">20 years of design</span><span class="fact-k">Print → Web → UX → Code</span></li>
+          <li class="reveal"><span class="fact-v">3 countries</span><span class="fact-k">Brazil → UK → Belgium</span></li>
+        </ul>
+      </div>
     </section>
 
     <!-- ══════════ THE LEDGER ══════════ -->
-    <section class="paper ledger" id="experience">
-      <div class="col">
-        <p class="eyebrow reg-mark">Experience</p>
-        <h2 class="reveal">One continuous line</h2>
+    <section class="paper ledger" id="experience" aria-labelledby="exp-h">
+      <div class="sheet">
+        <p class="eyebrow reg-mark rail">Experience</p>
+        <div class="lead">
+          <h2 id="exp-h" class="reveal register">One continuous line</h2>
+        </div>
       </div>
 
-      <ol class="jobs" reversed>
+      <ol class="jobs">
         <li class="job reveal">
-          <span class="job-when mono">2024 – now</span>
-          <span class="job-where mono">BE</span>
+          <p class="job-meta mono"><span class="job-when">2024 – now</span><span class="job-where">BE</span></p>
           <div class="job-body">
             <h3>bpost <span class="job-role">Senior UX Designer</span></h3>
             <p>Core digital services of the Belgian postal group, used by millions.
@@ -97,8 +134,7 @@
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2021 – 24</span>
-          <span class="job-where mono">BE</span>
+          <p class="job-meta mono"><span class="job-when">2021 – 24</span><span class="job-where">BE</span></p>
           <div class="job-body">
             <h3>Movify <span class="job-role">UX Consultant</span></h3>
             <p>Selected missions: service design for <strong>AlphaCredit</strong>
@@ -108,8 +144,7 @@
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2018 – 19</span>
-          <span class="job-where mono">BE</span>
+          <p class="job-meta mono"><span class="job-when">2018 – 19</span><span class="job-where">BE</span></p>
           <div class="job-body">
             <h3>Alpega TMS <span class="job-role">UX Designer</span></h3>
             <p>Built the design process from scratch and unified a logistics platform
@@ -117,8 +152,7 @@
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2014 – 17</span>
-          <span class="job-where mono">BR</span>
+          <p class="job-meta mono"><span class="job-when">2014 – 17</span><span class="job-where">BR</span></p>
           <div class="job-body">
             <h3>SBTUR <span class="job-role">UX Designer</span></h3>
             <p>Three years on a travel SaaS in Florianópolis: information architecture
@@ -126,8 +160,7 @@
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2013 – 14</span>
-          <span class="job-where mono">BR</span>
+          <p class="job-meta mono"><span class="job-when">2013 – 14</span><span class="job-where">BR</span></p>
           <div class="job-body">
             <h3>Upwell Web Performance <span class="job-role">Designer &amp; Maker</span></h3>
             <p>Joined a just-founded web performance startup and became one of its
@@ -136,8 +169,7 @@
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2009</span>
-          <span class="job-where mono">UK</span>
+          <p class="job-meta mono"><span class="job-when">2009</span><span class="job-where">UK</span></p>
           <div class="job-body">
             <h3>The Monteiro Clinic <span class="job-role">Web Designer</span></h3>
             <p>Magazine ads, website, newsletters. London, with a foot in both
@@ -145,8 +177,7 @@
           </div>
         </li>
         <li class="job job-origin reveal">
-          <span class="job-when mono">2006 – 07</span>
-          <span class="job-where mono">BR</span>
+          <p class="job-meta mono"><span class="job-when">2006 – 07</span><span class="job-where">BR</span></p>
           <div class="job-body">
             <h3>Gráfica Xingu <span class="job-role">Graphic Designer</span></h3>
             <p>The print shop. Business cards, books, magazines, from design to finishing.
@@ -156,22 +187,21 @@
         </li>
       </ol>
 
-      <div class="col edu-head">
-        <p class="eyebrow reg-mark">Education</p>
+      <div class="sheet edu-head">
+        <p class="eyebrow reg-mark rail">Education</p>
+        <div class="lead"><h2 id="edu-h" class="h2-small reveal register">Where it was learned</h2></div>
       </div>
 
-      <ol class="jobs">
+      <ol class="jobs" aria-labelledby="edu-h">
         <li class="job reveal">
-          <span class="job-when mono">2011 – 12</span>
-          <span class="job-where mono">UK</span>
+          <p class="job-meta mono"><span class="job-when">2011 – 12</span><span class="job-where">UK</span></p>
           <div class="job-body">
             <h3>Leeds Metropolitan University <span class="job-role">BSc (Hons)</span></h3>
             <p>Multimedia Technology, with a focus on UI and UX.</p>
           </div>
         </li>
         <li class="job reveal">
-          <span class="job-when mono">2009 – 11</span>
-          <span class="job-where mono">UK</span>
+          <p class="job-meta mono"><span class="job-when">2009 – 11</span><span class="job-where">UK</span></p>
           <div class="job-body">
             <h3>Bradford College <span class="job-role">FdSc</span></h3>
             <p>Multimedia and Design: web design and front-end development.</p>
@@ -181,46 +211,55 @@
     </section>
 
     <!-- ══════════ HOW I WORK ══════════ -->
-    <section class="paper how" id="how">
-      <div class="col">
-        <p class="eyebrow reg-mark">How I work</p>
-        <div class="principles">
-          <div class="principle reveal">
-            <h3>Understand before designing</h3>
-            <p>Interviews, workshops, service blueprints. I&rsquo;d rather ask one more
-            question than redesign the wrong thing beautifully.</p>
-          </div>
-          <div class="principle reveal">
-            <h3>Systems over screens</h3>
-            <p>A good rule outlives a thousand mockups. I write design decisions down
-            so they scale without me in the room.</p>
-          </div>
-          <div class="principle reveal">
-            <h3>Prototype in the real material</h3>
-            <p>Paper for print, code for software. The closer the prototype is to the
-            material, the more honest the answer.</p>
-          </div>
-        </div>
+    <section class="paper how" id="how" aria-labelledby="how-h">
+      <div class="sheet">
+        <p class="eyebrow reg-mark rail">How I work</p>
+        <div class="lead"><h2 id="how-h" class="h2-small reveal register">Three standing rules</h2></div>
       </div>
+      <ol class="principles">
+        <li class="principle reveal">
+          <span class="principle-no mono" aria-hidden="true">01</span>
+          <h3>Understand before designing</h3>
+          <p>Interviews, workshops, service blueprints. I&rsquo;d rather ask one more
+          question than redesign the wrong thing beautifully.</p>
+        </li>
+        <li class="principle reveal">
+          <span class="principle-no mono" aria-hidden="true">02</span>
+          <h3>Systems over screens</h3>
+          <p>A good rule outlives a thousand mockups. I write design decisions down
+          so they scale without me in the room.</p>
+        </li>
+        <li class="principle reveal">
+          <span class="principle-no mono" aria-hidden="true">03</span>
+          <h3>Prototype in the real material</h3>
+          <p>Paper for print, code for software. The closer the prototype is to the
+          material, the more honest the answer.</p>
+        </li>
+      </ol>
     </section>
   </main>
 
   <!-- ══════════ BACK TO INK ══════════ -->
-  <footer class="footer" id="contact">
+  <footer class="footer" id="contact" aria-labelledby="contact-h">
+   <div class="footer-inner">
     <p class="eyebrow reg-mark">Contact</p>
+    <h2 id="contact-h" class="sr-only">Contact</h2>
     <a class="footer-cta" href="mailto:mauricionpaim@gmail.com">
       <span class="cta-word">Let&rsquo;s</span>
       <span class="cta-word">talk<span class="cta-dot">.</span></span>
     </a>
     <div class="footer-links mono">
       <a href="mailto:mauricionpaim@gmail.com">mauricionpaim@gmail.com</a>
+      <button class="copy-mail" type="button" data-copy="mauricionpaim@gmail.com">Copy</button>
       <a href="https://www.linkedin.com/in/mauriciopaim" rel="me">LinkedIn</a>
       <a href="https://github.com/mauriciopaim" rel="me">GitHub</a>
+      <button class="print-cv" type="button">Print this page</button>
     </div>
     <p class="colophon mono">Set in Archivo, Newsreader &amp; IBM Plex Mono.
     Built by hand in Brussels. No cookies, no tracking.</p>
+   </div>
   </footer>
 
-  <script type="module" src="js/main.js?v=1"></script>
+  <script src="js/main.js?v=3" defer></script>
 </body>
 </html>
